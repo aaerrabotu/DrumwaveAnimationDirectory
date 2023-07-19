@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-container {
+      position: relative;
+      width: 500px;
+      height: 500px;
+    }
+    
+    .image-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="5.png" alt="Image 1">
+    <img src="1.png" alt="Image 2">
+    <img src="4.png" alt="Image 3">
+    <img src="7.png" alt="Image 4">
+    <img src="2.png" alt="Image 5">
+    <img src="3.png" alt="Image 6">
+    <img src="6.png" alt="Image 7">
+  </div>
+
+  <script>
+    var imageContainer = document.querySelector('.image-container');
+    var images = imageContainer.getElementsByTagName('img');
+    var currentIndex = 0;
+    var totalImages = images.length;
+
+    function showNextImage() {
+      var previousIndex = currentIndex;
+      currentIndex = (currentIndex + 1) % totalImages;
+      
+      images[previousIndex].style.opacity = 0;
+      images[currentIndex].style.opacity = 1;
+    }
+
+    setInterval(showNextImage, 2000); // Change image every 2 seconds
+  </script>
+</body>
+</html>
