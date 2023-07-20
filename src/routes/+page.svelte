@@ -6,6 +6,7 @@
 	import overlappingRedThumb from './overlapping-red/thumb.png';
 	import partsColorThumb from './parts-color/thumb.png';
 	import partsRedThumb from './parts-red/thumb.png';
+	import morphingThumb from './morphing/thumb.png';
 </script>
 
 <svelte:head>
@@ -46,6 +47,10 @@
 		<a href="blended-hex">
 			<img src={blendedHexThumb} alt="Blended Colors Using HEX Values! Thumbnail" />
 			<span>Blended Colors Using HEX Values!</span>
+		</a>
+		<a href="morphing">
+			<img src={morphingThumb} alt="Morphing Thumbnail" />
+			<span>Morphing</span>
 		</a>
 	</nav>
 </article>
