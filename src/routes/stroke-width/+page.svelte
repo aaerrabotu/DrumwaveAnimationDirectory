@@ -26,30 +26,10 @@
 	>
 		<animate
 			attributeName="stroke-width"
-			from="1"
-			to="100"
-			dur="10s"
+			values="1;100;1;100;1"
+			dur="30s"
 			repeatCount="indefinite"
 			fill="freeze"
-			begin="0s"
-		/>
-		<animate
-			attributeName="stroke-width"
-			from="100"
-			to="1"
-			dur="10s"
-			repeatCount="indefinite"
-			fill="freeze"
-			begin="10s"
-		/>
-		<animate
-			attributeName="stroke-width"
-			from="1"
-			to="100"
-			dur="10s"
-			repeatCount="indefinite"
-			fill="freeze"
-			begin="20s"
 		/>
 	</path>
 	<path
@@ -69,30 +49,10 @@
 	>
 		<animate
 			attributeName="stroke-width"
-			from="1"
-			to="100"
-			dur="10s"
+			values="1;100;1;100;1"
+			dur="30s"
 			repeatCount="indefinite"
 			fill="freeze"
-			begin="0s"
-		/>
-		<animate
-			attributeName="stroke-width"
-			from="100"
-			to="1"
-			dur="10s"
-			repeatCount="indefinite"
-			fill="freeze"
-			begin="10s"
-		/>
-		<animate
-			attributeName="stroke-width"
-			from="1"
-			to="100"
-			dur="10s"
-			repeatCount="indefinite"
-			fill="freeze"
-			begin="20s"
 		/>
 	</path>
 	<path
@@ -112,30 +72,10 @@
 	/>
 	<animate
 		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
+		values="1;100;1;100;1"
+		dur="30s"
 		repeatCount="indefinite"
 		fill="freeze"
-		begin="0s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="100"
-		to="1"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="10s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="20s"
 	/>
 	<path
 		class="st3"
@@ -154,30 +94,10 @@
 	/>
 	<animate
 		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
+		values="1;100;1;100;1"
+		dur="30s"
 		repeatCount="indefinite"
 		fill="freeze"
-		begin="0s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="100"
-		to="1"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="10s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="20s"
 	/>
 	<path
 		class="st4"
@@ -196,30 +116,10 @@
 	/>
 	<animate
 		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
+		values="1;100;1;100;1"
+		dur="30s"
 		repeatCount="indefinite"
 		fill="freeze"
-		begin="0s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="100"
-		to="1"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="10s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="20s"
 	/>
 	<path
 		class="st5"
@@ -238,30 +138,10 @@
 	/>
 	<animate
 		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
+		values="1;100;1;100;1"
+		dur="30s"
 		repeatCount="indefinite"
 		fill="freeze"
-		begin="0s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="100"
-		to="1"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="10s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="20s"
 	/>
 	<path
 		class="st6"
@@ -280,54 +160,9 @@
 	/>
 	<animate
 		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
+		values="1;100;1;100;1"
+		dur="30s"
 		repeatCount="indefinite"
 		fill="freeze"
-		begin="0s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="100"
-		to="1"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="10s"
-	/>
-	<animate
-		attributeName="stroke-width"
-		from="1"
-		to="100"
-		dur="10s"
-		repeatCount="indefinite"
-		fill="freeze"
-		begin="20s"
 	/>
 </svg>
-
-<style>
-	svg {
-		stroke: #ff9500;
-		fill: none;
-	}
-	.st1 {
-		stroke: #ff0000;
-	}
-	.st2 {
-		stroke: #ff2ebf;
-	}
-	.st3 {
-		stroke: #8000ff;
-	}
-	.st4 {
-		stroke: #00b0ff;
-	}
-	.st5 {
-		stroke: #39e555;
-	}
-	.st6 {
-		stroke: #ffd60a;
-	}
-</style>

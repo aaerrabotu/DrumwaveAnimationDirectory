@@ -1,6 +1,10 @@
 <script lang="ts">
 	import logo from './logo.png';
 	import blendedHexThumb from './blended-hex/thumb.png';
+	import blendedStrokeThumb from './blended-stroke/thumb.png';
+	import blendedStrokeColorWheel from './blended-stroke-color-wheel/thumb.png';
+	import blendedStrokeFullLogoColorWheel from './blended-stroke-full-logo-color-wheel/thumb.png';
+	import logoPartsThumb from './logo-parts/thumb.png';
 	import strokeWidthThumb from './stroke-width/thumb.png';
 	import overlappingColorThumb from './overlapping-color/thumb.png';
 	import overlappingRedThumb from './overlapping-red/thumb.png';
@@ -47,6 +51,25 @@
 		<a href="blended-hex">
 			<img src={blendedHexThumb} alt="Blended Colors Using HEX Values! Thumbnail" />
 			<span>Blended Colors Using HEX Values!</span>
+		</a>
+		<a href="blended-stroke">
+			<img src={blendedStrokeThumb} alt="Blended Stroke Thumbnail" />
+			<span>Blended Stroke</span>
+		</a>
+		<a href="logo-parts">
+			<img src={logoPartsThumb} alt="Logo Parts Thumbnail" />
+			<span>Logo Parts</span>
+		</a>
+		<a href="blended-stroke-full-logo-color-wheel">
+			<img
+				src={blendedStrokeFullLogoColorWheel}
+				alt="Blended Stroke (Full Logo - Color Wheel) Thumbnail"
+			/>
+			<span>Blended Stroke (Full Logo - Color Wheel)</span>
+		</a>
+		<a href="blended-stroke-color-wheel">
+			<img src={blendedStrokeColorWheel} alt="Blended Stroke (Color Wheel) Thumbnail" />
+			<span>Blended Stroke (Color Wheel)</span>
 		</a>
 		<a href="morphing">
 			<img src={morphingThumb} alt="Morphing Thumbnail" />
@@ -123,6 +146,7 @@
 	nav img {
 		height: 50px;
 		mix-blend-mode: multiply;
+		object-fit: contain;
 		width: 50px;
 	}
 
