@@ -10,6 +10,8 @@
 	import overlappingRedThumb from './overlapping-red/thumb.png';
 	import partsColorThumb from './parts-color/thumb.png';
 	import partsRedThumb from './parts-red/thumb.png';
+	import strokeRotationThumb from './stroke-rotation/thumb.png';
+	import centralRotationThumb from './central-rotation/thumb.png';
 	import morphingThumb from './morphing/thumb.png';
 </script>
 
@@ -70,6 +72,14 @@
 		<a href="blended-stroke-color-wheel">
 			<img src={blendedStrokeColorWheel} alt="Blended Stroke (Color Wheel) Thumbnail" />
 			<span>Blended Stroke (Color Wheel)</span>
+		</a>
+		<a href="stroke-rotation">
+			<img src={strokeRotationThumb} alt="Stroke Rotation Thumbnail" />
+			<span>Stroke Rotation</span>
+		</a>
+		<a href="central-rotation">
+			<img src={centralRotationThumb} alt="Central Rotation Thumbnail" />
+			<span>Central Rotation</span>
 		</a>
 		<a href="morphing">
 			<img src={morphingThumb} alt="Morphing Thumbnail" />
